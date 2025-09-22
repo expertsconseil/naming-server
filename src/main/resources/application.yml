@@ -1,9 +1,6 @@
 spring:
   application:
     name: naming-server
-  profiles:
-    active:
-      - dev
   config:
     import: configserver:http://localhost:8001
   cloud:
